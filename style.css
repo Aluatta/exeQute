@@ -215,9 +215,6 @@
 
 }
 
- .nav-link:hover{
-}
-
 
 .navbar{
 margin-bottom: var(--margin-xl);
@@ -278,6 +275,7 @@ main {
     justify-content: center;
     min-height: 92svh ;
     color: var(--bgLightandText);
+    background-color: #0A2041;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #3F86CB 0%, #2F7DC9 8.69%, #065BAE 52.19%, #073D72 100%);
     margin-bottom: var(--margin-separator);
     font-size: clamp(1.125rem, 1.4rem, 2rem);
@@ -707,7 +705,7 @@ margin-bottom:var(--margin-xs) ;
 
     .product-features{
      text-align: left;
-     padding-left: 8rem;
+     padding-left: 3rem;
      margin-right: 8rem;
     }
 
@@ -764,6 +762,11 @@ margin-bottom:var(--margin-xs) ;
        
 
     }
+    .product-features{
+        text-align: left;
+        padding-left: 8rem;
+        margin-right: 8rem;
+       }
 
      
 }
