@@ -307,7 +307,7 @@ main {
 
 }
 .text-L:last-of-type{
-   margin-bottom: var(--margin-m);
+   margin-bottom:var(--margin-separator);
 
 }
 strong {
@@ -502,14 +502,6 @@ strong {
     }
 
 
-  
-
-
-
-   
-    }
-
-
     .navbar {
         display: flex;
         justify-content:space-between;
@@ -562,48 +554,48 @@ strong {
 
       
     }
+
     .nav-link:hover,
     .nav-link:active {
     color: var(--accentColor);
-}
-    
 
-    
-   
-        .nav-menu {     /** rulling out */
-            width: 640px;
-            position: fixed;
-            left: -100%;
-            top:5rem;  /** odleglosc od syfitu */
-            flex-direction: column;
-            width: 100vw;
-            border-radius: 8px;
-            text-align: center;
-            transition: 0.3s;
-            background-color: var(--color-background-light);
-            align-items: center;
-          
-      
-        }
+    }.nav-menu {     /** rulling out */  
+        width: 640px;
+        position: fixed;
+        left: -100%;
+        top:5rem;  /** odleglosc od syfitu */
+        flex-direction: column;
+        width: 100vw;
+        border-radius: 8px;
+        text-align: center;
+        transition: 0.3s;
+        background-color: var(--color-background-light);
+        align-items: center;
+    }
+    .nav-menu {
+        display: flex;
+        height:480px;
 
-        .nav-menu {
-            display: flex;
-            height:480px;
-    
-           
-        }
-    
-        .nav-menu.active {
-           left: 0;
-            display: flex;
-            flex-direction: column;
-            width: 640px;
-            height: 480px;
-        
+       
+    }
+    .nav-menu.active {
+        left: 0;
+         display: flex;
+         flex-direction: column;
+         width: 640px;
+         height: 480px;
+     
 
-            
-        }
-    
+         
+     }
+     .nav-menu.active {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+        height: 480px; 
+     }
+  
        
         .hamburger {
             display: block;
@@ -648,30 +640,31 @@ strong {
         object-fit:scale-down;
 
 }
-
 .vpc{
     padding-top:var(--padding-xxl);
     padding-bottom: var(--padding-xxl);
 }
+
+
 .product-features{
     padding-bottom: 4rem;
     padding-left: 1rem;
    
-   }
+}
 
 .footer-address{
 margin-bottom:var(--margin-xs) ;
 }
 .footer-contact-us{
     margin-bottom: var(--margin-xs);
-}
-/** -------------------------------------------------------------------------------------- */
-/* style for tablets*/
-@media screen and (min-width: 744px) {
-    body{text-align: center;
+}   
+    /** -------------------------------------------------------------------------------------- */
+    /* style for tablets*/
 
-      
-      
+@media screen and (min-width: 744px) {
+
+    body{
+        text-align: center;
     }
 
     .hero-man{
@@ -697,6 +690,7 @@ margin-bottom:var(--margin-xs) ;
         
     
     }
+    
     /**  Product features section */
     .supportiv-img{
         display: block;
@@ -740,44 +734,36 @@ margin-bottom:var(--margin-xs) ;
 
 /* style for desktops*/
 @media screen and (min-width: 1280px) {
-    body{
+  
     h1 {
         font-size: 3rem;
         justify-content: center;
     }
 
-
-
     .hamburger {
         display: none;
     }
 
-/** Button Hover state on desktops */
-button {
-    width: 350px;
-    padding:16px, 85px;
-    font-size: 24px;
-
- 
-
-}
-
- button:hover {
+    button {     /** Button Hover state on desktops */
+        width: 350px;
+        padding:16px, 85px;
+        font-size: 24px;
+    
+     
+    }
+    button:hover {
         cursor: pointer;
         background-color: #e49800; /* przyciemnienie koloru primary z mniejszą przezroczystością */
         box-shadow: var(--box-shadow-hover);
         border: var(--box-border-hover);
         color: var(--primary600);
-       
-
     }
-
-     /* Styl dla stanu aktywnego */
-     button:active {
+    button:active {
         background-color: var():
         color:var(--bgLightandText);
        
 
     }
-}
 
+     
+}
