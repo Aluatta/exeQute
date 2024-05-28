@@ -137,7 +137,6 @@
         flex:1;
         flex-grow: 1;
         min-height: 100vh;
-        background-color:  linear-gradient(180deg, #F9F9F9 0%, #EEE 100%);
         background: linear-gradient(180deg, #F9FBFF 0%, #ddeffd 100%);
         background: var(--bgLightandText);
         color: var(--primary600);
@@ -281,6 +280,10 @@ main {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #3F86CB 0%, #2F7DC9 8.69%, #065BAE 52.19%, #073D72 100%);
     margin-bottom: var(--margin-separator);
     font-size: clamp(1.125rem, 1.4rem, 2rem);
+   
+}
+    
+    
   
     
  
@@ -292,7 +295,7 @@ main {
 
 }
 .--vpc-text{
-    margin-bottom:var(--margin-m) ;
+    margin-bottom:var(--margin-m);
 }
 .vpc-list{
     line-height: 1.8;
@@ -537,10 +540,10 @@ strong {
         line-height: 50px;
         width: 320px;
         border-radius: 10px;
-        font-family: outfit;
+        font-family: montserrat;
         font-size:24px ;
         margin-top:var(--space-default);
-        margin-bottom: 0% auto;
+         /** margin-bottom: 0% auto; */
      
     
     
@@ -749,7 +752,7 @@ margin-bottom:var(--margin-xs) ;
 
     button {     /** Button Hover state on desktops */
         width: 350px;
-        padding:16px, 85px;
+        padding:16px 85px;
         font-size: 24px;
     
      
@@ -761,7 +764,7 @@ margin-bottom:var(--margin-xs) ;
         color: var(--primary600);
     }
     button:active {
-        background-color: var():
+        background-color: var(--buttonActiveColor):
         color:var(--bgLightandText);
        
 
