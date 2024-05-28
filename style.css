@@ -273,7 +273,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 92svh ;
     color: var(--bgLightandText);
     background-color: #0A2041;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #3F86CB 0%, #2F7DC9 8.69%, #065BAE 52.19%, #073D72 100%);
@@ -656,6 +655,7 @@ margin-bottom:var(--margin-xs) ;
 .footer-contact-us{
     margin-bottom: var(--margin-xs);
 }   
+
     /** -------------------------------------------------------------------------------------- */
     /* style for tablets*/
 
@@ -664,6 +664,8 @@ margin-bottom:var(--margin-xs) ;
     body{
         text-align: center;
     }
+    .vpc{
+        min-height:auto;}
 
     .hero-man{
         display: block;
