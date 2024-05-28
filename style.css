@@ -78,11 +78,14 @@
 /**Button*/
    --buttonFont:1.5rem;
    --ButtonDefaultColor:#ffaa00;
+   --buttonHoverColor:#FFD809;
+   --buttonActiveColor:#2CA102;
    --buttonPaddingSide:85px;
    --buttonPaddingtopButtom: 16px;
    --buttonBorderRadius:8px;
    --box-shadow-hover: 0 8px 12px rgb(249, 208, 127);
    --box-border-hover:1 solid #333029;/**!!! */
+
 
 
  
@@ -753,8 +756,7 @@ margin-bottom:var(--margin-xs) ;
     }
     button:hover {
         cursor: pointer;
-        background-color: #e49800; /* przyciemnienie koloru primary z mniejszą przezroczystością */
-        box-shadow: var(--box-shadow-hover);
+        background-color: var(--buttonHoverColor); 
         border: var(--box-border-hover);
         color: var(--primary600);
     }
@@ -763,6 +765,10 @@ margin-bottom:var(--margin-xs) ;
         color:var(--bgLightandText);
        
 
+    }
+    button:active{
+        background-color: var(--buttonActiveColor);
+    
     }
     .product-features{
         text-align: left;
